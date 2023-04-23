@@ -13,10 +13,20 @@
 		502C818D29EEF62100ABD0EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 502C818B29EEF62100ABD0EA /* Main.storyboard */; };
 		502C818F29EEF62200ABD0EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 502C818E29EEF62200ABD0EA /* Assets.xcassets */; };
 		502C819229EEF62200ABD0EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 502C819029EEF62200ABD0EA /* LaunchScreen.storyboard */; };
+		502C819E29EEF67900ABD0EA /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502C819C29EEF67900ABD0EA /* HomeVC.swift */; };
+		502C819F29EEF67900ABD0EA /* HomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 502C819D29EEF67900ABD0EA /* HomeVC.xib */; };
+		502C81A329EEF9A200ABD0EA /* ResultVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502C81A129EEF9A200ABD0EA /* ResultVC.swift */; };
+		502C81A429EEF9A200ABD0EA /* ResultVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 502C81A229EEF9A200ABD0EA /* ResultVC.xib */; };
+		502C81A829EEFCF200ABD0EA /* ResultItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502C81A629EEFCF200ABD0EA /* ResultItemCell.swift */; };
+		502C81A929EEFCF200ABD0EA /* ResultItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 502C81A729EEFCF200ABD0EA /* ResultItemCell.xib */; };
+		502C81AC29EF017000ABD0EA /* SalaryCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502C81AB29EF017000ABD0EA /* SalaryCalculator.swift */; };
+		502C81AE29EFDB1700ABD0EA /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502C81AD29EFDB1700ABD0EA /* Helper.swift */; };
+		5053B25129F135C700CF47A1 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 5053B25029F135C700CF47A1 /* IQKeyboardManagerSwift */; };
+		5053B25329F1361600CF47A1 /* KeyboardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5053B25229F1361600CF47A1 /* KeyboardManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		502C818229EEF62100ABD0EA /* Salary Tax Calculation (EG).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Salary Tax Calculation (EG).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		502C818229EEF62100ABD0EA /* Salary Tax Calculation EG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Salary Tax Calculation EG.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		502C818529EEF62100ABD0EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		502C818729EEF62100ABD0EA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		502C818929EEF62100ABD0EA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +34,15 @@
 		502C818E29EEF62200ABD0EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		502C819129EEF62200ABD0EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		502C819329EEF62200ABD0EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		502C819C29EEF67900ABD0EA /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		502C819D29EEF67900ABD0EA /* HomeVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeVC.xib; sourceTree = "<group>"; };
+		502C81A129EEF9A200ABD0EA /* ResultVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultVC.swift; sourceTree = "<group>"; };
+		502C81A229EEF9A200ABD0EA /* ResultVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ResultVC.xib; sourceTree = "<group>"; };
+		502C81A629EEFCF200ABD0EA /* ResultItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultItemCell.swift; sourceTree = "<group>"; };
+		502C81A729EEFCF200ABD0EA /* ResultItemCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ResultItemCell.xib; sourceTree = "<group>"; };
+		502C81AB29EF017000ABD0EA /* SalaryCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalaryCalculator.swift; sourceTree = "<group>"; };
+		502C81AD29EFDB1700ABD0EA /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		5053B25229F1361600CF47A1 /* KeyboardManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5053B25129F135C700CF47A1 /* IQKeyboardManagerSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,7 +60,7 @@
 		502C817929EEF62100ABD0EA = {
 			isa = PBXGroup;
 			children = (
-				502C818429EEF62100ABD0EA /* Salary Tax Calculation (EG) */,
+				502C818429EEF62100ABD0EA /* Salary Tax Calculation EG */,
 				502C818329EEF62100ABD0EA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,12 +68,23 @@
 		502C818329EEF62100ABD0EA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				502C818229EEF62100ABD0EA /* Salary Tax Calculation (EG).app */,
+				502C818229EEF62100ABD0EA /* Salary Tax Calculation EG.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		502C818429EEF62100ABD0EA /* Salary Tax Calculation (EG) */ = {
+		502C818429EEF62100ABD0EA /* Salary Tax Calculation EG */ = {
+			isa = PBXGroup;
+			children = (
+				502C81AA29EF015C00ABD0EA /* Helper */,
+				502C819A29EEF64200ABD0EA /* App */,
+				502C819929EEF62E00ABD0EA /* Utils */,
+				502C819329EEF62200ABD0EA /* Info.plist */,
+			);
+			path = "Salary Tax Calculation EG";
+			sourceTree = "<group>";
+		};
+		502C819929EEF62E00ABD0EA /* Utils */ = {
 			isa = PBXGroup;
 			children = (
 				502C818529EEF62100ABD0EA /* AppDelegate.swift */,
@@ -62,17 +93,63 @@
 				502C818B29EEF62100ABD0EA /* Main.storyboard */,
 				502C818E29EEF62200ABD0EA /* Assets.xcassets */,
 				502C819029EEF62200ABD0EA /* LaunchScreen.storyboard */,
-				502C819329EEF62200ABD0EA /* Info.plist */,
 			);
-			path = "Salary Tax Calculation (EG)";
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		502C819A29EEF64200ABD0EA /* App */ = {
+			isa = PBXGroup;
+			children = (
+				502C81A029EEF98600ABD0EA /* Result */,
+				502C819B29EEF65500ABD0EA /* Home */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		502C819B29EEF65500ABD0EA /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				502C819C29EEF67900ABD0EA /* HomeVC.swift */,
+				502C819D29EEF67900ABD0EA /* HomeVC.xib */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		502C81A029EEF98600ABD0EA /* Result */ = {
+			isa = PBXGroup;
+			children = (
+				502C81A529EEFCCA00ABD0EA /* ItemCell */,
+				502C81A129EEF9A200ABD0EA /* ResultVC.swift */,
+				502C81A229EEF9A200ABD0EA /* ResultVC.xib */,
+			);
+			path = Result;
+			sourceTree = "<group>";
+		};
+		502C81A529EEFCCA00ABD0EA /* ItemCell */ = {
+			isa = PBXGroup;
+			children = (
+				502C81A629EEFCF200ABD0EA /* ResultItemCell.swift */,
+				502C81A729EEFCF200ABD0EA /* ResultItemCell.xib */,
+			);
+			path = ItemCell;
+			sourceTree = "<group>";
+		};
+		502C81AA29EF015C00ABD0EA /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				502C81AB29EF017000ABD0EA /* SalaryCalculator.swift */,
+				502C81AD29EFDB1700ABD0EA /* Helper.swift */,
+				5053B25229F1361600CF47A1 /* KeyboardManager.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		502C818129EEF62100ABD0EA /* Salary Tax Calculation (EG) */ = {
+		502C818129EEF62100ABD0EA /* Salary Tax Calculation EG */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 502C819629EEF62200ABD0EA /* Build configuration list for PBXNativeTarget "Salary Tax Calculation (EG)" */;
+			buildConfigurationList = 502C819629EEF62200ABD0EA /* Build configuration list for PBXNativeTarget "Salary Tax Calculation EG" */;
 			buildPhases = (
 				502C817E29EEF62100ABD0EA /* Sources */,
 				502C817F29EEF62100ABD0EA /* Frameworks */,
@@ -82,9 +159,12 @@
 			);
 			dependencies = (
 			);
-			name = "Salary Tax Calculation (EG)";
+			name = "Salary Tax Calculation EG";
+			packageProductDependencies = (
+				5053B25029F135C700CF47A1 /* IQKeyboardManagerSwift */,
+			);
 			productName = "Salary Tax Calculation (EG)";
-			productReference = 502C818229EEF62100ABD0EA /* Salary Tax Calculation (EG).app */;
+			productReference = 502C818229EEF62100ABD0EA /* Salary Tax Calculation EG.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +182,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 502C817D29EEF62100ABD0EA /* Build configuration list for PBXProject "Salary Tax Calculation (EG)" */;
+			buildConfigurationList = 502C817D29EEF62100ABD0EA /* Build configuration list for PBXProject "Salary Tax Calculation EG" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -111,11 +191,14 @@
 				Base,
 			);
 			mainGroup = 502C817929EEF62100ABD0EA;
+			packageReferences = (
+				5053B24F29F135C700CF47A1 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+			);
 			productRefGroup = 502C818329EEF62100ABD0EA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				502C818129EEF62100ABD0EA /* Salary Tax Calculation (EG) */,
+				502C818129EEF62100ABD0EA /* Salary Tax Calculation EG */,
 			);
 		};
 /* End PBXProject section */
@@ -126,8 +209,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				502C819229EEF62200ABD0EA /* LaunchScreen.storyboard in Resources */,
+				502C819F29EEF67900ABD0EA /* HomeVC.xib in Resources */,
 				502C818F29EEF62200ABD0EA /* Assets.xcassets in Resources */,
+				502C81A929EEFCF200ABD0EA /* ResultItemCell.xib in Resources */,
 				502C818D29EEF62100ABD0EA /* Main.storyboard in Resources */,
+				502C81A429EEF9A200ABD0EA /* ResultVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +224,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				502C81A329EEF9A200ABD0EA /* ResultVC.swift in Sources */,
+				502C81A829EEFCF200ABD0EA /* ResultItemCell.swift in Sources */,
+				502C81AE29EFDB1700ABD0EA /* Helper.swift in Sources */,
+				502C81AC29EF017000ABD0EA /* SalaryCalculator.swift in Sources */,
 				502C818A29EEF62100ABD0EA /* ViewController.swift in Sources */,
+				502C819E29EEF67900ABD0EA /* HomeVC.swift in Sources */,
 				502C818629EEF62100ABD0EA /* AppDelegate.swift in Sources */,
 				502C818829EEF62100ABD0EA /* SceneDelegate.swift in Sources */,
+				5053B25329F1361600CF47A1 /* KeyboardManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,6 +308,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -270,6 +363,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -287,20 +381,25 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 44Y3F899A5;
+				DEVELOPMENT_TEAM = 579TSW365W;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Salary Tax Calculation (EG)/Info.plist";
+				INFOPLIST_FILE = "Salary Tax Calculation EG/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = SalaryTaxEG;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.sameh.Salary-Tax-Calculation--EG-";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sameh.salary-tax-eg";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -313,23 +412,30 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 44Y3F899A5;
+				DEVELOPMENT_TEAM = 579TSW365W;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Salary Tax Calculation (EG)/Info.plist";
+				INFOPLIST_FILE = "Salary Tax Calculation EG/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = SalaryTaxEG;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.sameh.Salary-Tax-Calculation--EG-";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sameh.salary-tax-eg";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -339,7 +445,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		502C817D29EEF62100ABD0EA /* Build configuration list for PBXProject "Salary Tax Calculation (EG)" */ = {
+		502C817D29EEF62100ABD0EA /* Build configuration list for PBXProject "Salary Tax Calculation EG" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				502C819429EEF62200ABD0EA /* Debug */,
@@ -348,7 +454,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		502C819629EEF62200ABD0EA /* Build configuration list for PBXNativeTarget "Salary Tax Calculation (EG)" */ = {
+		502C819629EEF62200ABD0EA /* Build configuration list for PBXNativeTarget "Salary Tax Calculation EG" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				502C819729EEF62200ABD0EA /* Debug */,
@@ -358,6 +464,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5053B24F29F135C700CF47A1 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5053B25029F135C700CF47A1 /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5053B24F29F135C700CF47A1 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 502C817A29EEF62100ABD0EA /* Project object */;
 }
