@@ -18,7 +18,9 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
         guard let _ = (scene as? UIWindowScene) else { return }
         
-        window?.rootViewController = UINavigationController(rootViewController: HomeVC())
+        let navVC = UINavigationController(rootViewController: HomeVC())
+        //navVC.navigationBar.prefersLargeTitles = true
+        window?.rootViewController = navVC
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
